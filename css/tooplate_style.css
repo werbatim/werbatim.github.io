@@ -6,7 +6,7 @@ http://www.tooplate.com/view/2041-digital-mini
 body {
     margin: 0;
     padding: 0;
-    color: #4d432c;
+    color: #eae0c8;
     font-family: Tahoma, Geneva, sans-serif;
     font-size: 13px;
     line-height: 1.7em;
@@ -340,4 +340,8 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
     padding: 20px;
     text-align: center;
     color: #666;
+}
+
+.logo {
+  max-width: 300px;
 }
