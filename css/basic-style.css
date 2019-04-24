@@ -1,3 +1,7 @@
+:root {
+  --main-link-color: #E57373;
+}
+
 /*
 Simple Responsive Template v 1.2
 
@@ -34,7 +38,7 @@ h1, h2, h3, h4, h5, h6{
 a,
 a:visited,
 a:active,
-a:hover{color:#0099ff;}
+a:hover{color:var(--main-link-color);}
 a:hover{ text-decoration:none;}
 
 
@@ -98,7 +102,7 @@ img{ max-width:100%; height:auto;}
     font-size:20px;
 }
 .menu-toggle.toggled-on{
-    background:#0099ff;
+  background:var(--main-link-color);
 }
 .srt-menu{
     display:none;
@@ -122,8 +126,8 @@ img{ max-width:100%; height:auto;}
     text-decoration:none;
 }
 .srt-menu li a:hover{
-    background:#0099ff;
-    color:#fff;
+  background:var(--main-link-color);
+  color:#fff;
 }
 .srt-menu li li a {
     background:#e8e8e8;
@@ -149,10 +153,11 @@ img{ max-width:100%; height:auto;}
     padding:10px;
     text-decoration:none;
 }
+
 #secondary-navigation ul li a:hover,
 #secondary-navigation ul li.current a{
-    background:#0099ff;
-    color:#fff;
+  background:var(--main-link-color);
+  color:#fff;
 }
 
 /*SPACE GRID ELEMENTS VERTICALLY, SINCE THEY ARE ONE UNDER ANOTHER SO FAR*/
@@ -208,14 +213,14 @@ footer ul{
 }
 
 a.buttonlink{
-    background:#0099ff;
-    border-radius:7px;
-    color:#fff;
-    display:block;
-    float:left;
-    margin:10px 15px 10px 0;
-    padding:10px;
-    text-decoration:none;
+  background:var(--main-link-color);
+  border-radius:7px;
+  color:#fff;
+  display:block;
+  float:left;
+  margin:10px 15px 10px 0;
+  padding:10px;
+  text-decoration:none;
 }
 a.buttonlink:hover{
     background:#8dbc01;
@@ -389,7 +394,7 @@ ul.srt-menu li li li.sfHover ul {
     height:45px;
 }
 .srt-menu a, .srt-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
-    color:			#0099ff;
+  color:			var(--main-link-color);
 }
 .srt-menu li li a {
         border-top:		1px solid rgba(255,255,255,.2);
@@ -409,11 +414,11 @@ ul.srt-menu li li li.sfHover ul {
 .srt-menu li:hover > a,
 .srt-menu li.current a{
   color:#fff;
-  background:#0099ff;
+  background:var(--main-link-color);
 }
 .srt-menu li li:hover > a{
     color:#fff;
-    background:#0099ff;
+    background:var(--main-link-color);
 }
 
 
